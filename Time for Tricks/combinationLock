@@ -1,0 +1,6 @@
+CREATE PROCEDURE solution()
+BEGIN
+	/* Write your SQL here. Terminate each statement with a semicolon. */
+	SELECT round(exp(sum(log(length(characters))))) as combinations
+	FROM discs;
+END
